@@ -105,8 +105,9 @@ async function whatsAsena () {
         var getGMTm = new Date().getMinutes()
         var ann_msg = await WhatsAsenaStack.daily_announcement(config.LANG)
         var ann = await WhatsAsenaStack.ann()
-        while (getGMTh == 19 && getGMTm == 1) {
+        while (getGMTh == 15 && getGMTm == 1) {
             var ilan = ''
+
             if (config.LANG == 'TR') ilan = '[ ```Günlük Duyurular``` ]\n\n'
             if (config.LANG == 'AZ') ilan = '[ ```Gündəlik Elanlar``` ]\n\n'
             if (config.LANG == 'EN') ilan = '[ ```Daily Announcements``` ]\n\n'
@@ -117,6 +118,7 @@ async function whatsAsena () {
             if (config.LANG == 'HI') ilan = '[ ```दैनिक घोषणा``` ]\n\n'
             if (config.LANG == 'ID') ilan = '[ ```Pengumuman Harian``` ]\n\n'
             if (config.LANG == 'LK') ilan = '[ ```දෛනික නිවේදන``` ]\n\n'
+            
             if (ann.video.includes('http') || ann.video.includes('https')) {
                 var VID = ann.video.split('youtu.be')[1].split(' ')[0].replace('/', '')
                 var yt = ytdl(VID, {filter: format => format.container === 'mp4' && ['720p', '480p', '360p', '240p', '144p'].map(() => true)});
