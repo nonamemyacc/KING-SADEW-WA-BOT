@@ -1,8 +1,8 @@
 ## Thanks for Everything 
 ### We will always remember you..
 
-- [Yusuf Usta](https://github.com/yusufusta)
-- [@fusufs](https://t.me/fusufs)
+- [SADEW WA](https://wa.me/+94770532534)
+- [SADEW GIT HUB](https://github.com/nonamemyacc)
 
 <p align="center">
   <a href="https://github.com/phaticusthiccy/WhatsAsenaDuplicated/fork">
@@ -82,7 +82,7 @@ the user is responsible.
 .mp4 version available on local file
 -->
 
-  <h1>🐺 WhatsAsena</h1>
+  <h1>🐺 KING SADEW BOT</h1>
 </div>
 <p align="center">
     WhatsAsena project - Makes it easy and fun to use Whatsapp. Also first userbot for Whatsapp.
